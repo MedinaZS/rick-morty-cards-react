@@ -1,0 +1,6 @@
+1. Userprofile hace un request a una api con fetch para traer informacion sobre un usuario en especifico, mientras se realiza el request muestra en la pantalla un mensaje de Cargando Usuario y una vez el estado de usuario tiene datos se despliega los datos del mismo, Nombre, edad y su email
+
+
+2. El componente counter despliega en pantalla el valor del contador actual empezando por 0, proporcionando 2 botones para aumentar y disminuir respectivamente el valor actual del contador utilizando el hook de useState
+
+3. Userprofile despliega los datos de un usuario (nombre, edad y el email) obteniendo los datos de este mismo a través de un contexto (es una manera de compartir estados entre los componentes, el componente se 'suscribe' a un contexto pudiendo consumir el valor del estado, sin tener que pasar por props)
